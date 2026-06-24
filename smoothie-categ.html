@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Category</title>
+    
+    <link rel="shortcut icon" href="material/shrek-juice.jpg" type="image/x-icon">
+
+    <!-- Bootstrap 5 CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Font Link (For Luckiest Guy Font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- External Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img class="logo" src="material/shrek-juice.jpg" alt="Logo_juice">
+            <a class="navbar-brand" href="index.html"> Shrek-Juices</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase small">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fruit-categ.html">Fruit juices</a></li>
+                            <li><a class="dropdown-item" href="vege-categ.html">Vegetable juices</a></li>
+                            <li><a class="dropdown-item" href="smoothie-categ.html">Smoothies</a></li>
+                            <li><a class="dropdown-item" href="protein-categ.html">Protein Shakes</a></li>
+                            <li><a class="dropdown-item" href="winter.html">Winter Menu</a></li>
+                            <li><a class="dropdown-item" href="chocolate-categ.html">Chocolate juices</a></li>
+                            <li><a class="dropdown-item" href="mocktails-categ.html">Mocktails</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to the Location section below -->
+                        <a class="nav-link" href="index.html#Store-Location">Store Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Franchising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to About Us page -->
+                        <a class="nav-link" href="About-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- card-1 Apple Smoothie -->
+    <div class="containe mt-4">
+        <div class="row" id="smoothies">
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/APPLE SMOOTHIES IMAGE.jpg" alt="Smoothie" height="300">
+
+                <div class="card-body">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #ffffff;">Apple Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#orangeModal" style="background-color:#b33db8; border:none;">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buyorangeModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="orangeModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg"
+                        style="background:linear-gradient(135deg,#E6E6FA,#771177); border-radius:30px;">
+
+                        <div class="modal-content border-0 shadow-lg"
+                            style="background-color:#E6E6FA; border-radius:30px;">
+
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">
+                                    Selling Smoothie Recipe & Info
+                                </h5>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body text-center">
+
+                                <img src="material/APPLE SMOOTHIES IMAGE.jpg" alt="Apple Smoothie"
+                                    class="rounded mb-3 d-block mx-auto"
+                                    style="width:150px; height:150px; object-fit:cover;">
+
+                                <p class="text-muted">
+                               An apple smoothie is a refreshing, fiber-rich beverage typically made by blending fresh apples with milk.
+                                </p>
+
+                            </div>
+                            <h6 class="fw-bold text-white mt-4 mb-2 "><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Apple Smoothie
+                                </li>
+                                <li> Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buyorangeModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Apple Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card-2 Apricot Smoothie -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/boil-apricot-yellow-smoothie-57434360.webp" alt="" height="300" width="350">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Apricot Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text text-medium font-weight-bold">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#appleModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buyappleModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+
+            <div class="modal fade" id="appleModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe
+                                & Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/boil-apricot-yellow-smoothie-57434360.webp" alt="Apricot Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">An apricot smoothie is a creamy, vitamin-packed beverage made by blending fresh, frozen, or canned apricots with a liquid base like milk, yogurt often sweetened with honey.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>
+                                    Fresh Apricot Smoothie</li>
+                                <li>Organic Sweet Agave
+                                    Nectar</li>
+                                <li> Hand-picked Crushed Mint
+                                    Leaves
+                                </li>
+                                <li> Pure Sea Salt Minerals
+                                    for
+                                    Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buyappleModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Apricot Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card-3 Banana Smoothie-->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/Banana iamge.jpg" alt="Banana smoothie" height="300" width="350">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Banana Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#pomegranateModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buypomegranateModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+
+            <div class="modal fade" id="pomegranateModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe &
+                                Info</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/Banana iamge.jpg" alt="Banana Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A banana smoothie is a creamy, nutrient-rich beverage blended from ripe bananas and a liquid base like milk or yogurt, offering a quick source of potassium, dietary fiber, and natural energy.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"> Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li> Fresh Banana Smoothie</li>
+                                <li> Organic Sweet Agave Nectar
+                                </li>
+                                <li> Hand-picked Crushed Mint
+                                    Leaves</li>
+                                <li> Pure Sea Salt Minerals for
+                                    Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buypomegranateModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Banana Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card-4 Berries Smoothie-->
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/mixed-berry-smoothie-2.jpg" alt="Smoothie" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Berries Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  " data-bs-toggle="modal"
+                            data-bs-target="#mangoModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buymangoModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="mangoModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe & Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/mixed-berry-smoothie-2.jpg" alt="Berries Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A berry smoothie is a vibrant, antioxidant-rich, and refreshing blended beverage typically made by combining frozen or fresh berries (like blueberries, and raspberries) with a liquid base like milk, juice, or yogurt to create a nutritious on-the-go snack or breakfast.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li> Fresh Berries Smoothies</li>
+                                <li> Organic Sweet Agave Nectar</li>
+                                <li> Hand-picked Crushed Mint Leaves</li>
+                                <li> Pure Sea Salt Minerals for Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buymangoModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Berries Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card-5 kiwi Smoothie -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/Kiwi smoothie.jpg" alt="Smoothie" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Kiwi Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold  text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#kiviModal" style="background-color: #b33db8; color: white; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buykiviModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="kiviModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe &
+                                Info</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="material/Kiwi smoothie.jpg" alt="kiwi Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text">A kiwi smoothie is a vibrant, refreshing drink made by blending fresh or frozen kiwi with liquids like milk, yogurt, or coconut water. It is a tangy, nutrient-packed powerhouse rich in vitamin C, fiber, and antioxidants that supports immune health and digestion.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>
+                                    Fresh Kiwi Smoothie</li>
+                                <li>> Organic Sweet Agave Nectar
+                                </li>
+                                <li> Hand-picked Crushed Mint Leaves
+                                </li>
+                                <li> Pure Sea Salt Minerals for Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buykiviModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order kiwi Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-6 Mango Smoothie -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/Mango smoothie.jpg" alt="Smoothie" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Mango Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#limeModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buylimeModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="limeModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/Mango smoothie.jpg" alt="Mango Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A mango smoothie is a thick, refreshing beverage typically made by blending ripe, sweet mangoes with milk or yogurt and ice. It offers a delicious tropical taste and is packed with essential vitamins like Vitamin A and C.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>
+                                     Fresh Mango Smoothie
+                                </li>
+                                <li> Organic Sweet Agave Nectar</li>
+                                <li> Hand-picked Crushed Mint Leaves</li>
+                                <li> Pure Sea Salt Minerals for Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buylimeModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Mango Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Orange Smoothie -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/Orange smoothie.jpg" alt="Smoothie" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smoothie</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Orange Smoothie</h5><br>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#strawberryModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buystrawberryModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="strawberryModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/Orange smoothie.jpg" alt="Orange Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">An orange smoothie is a refreshing, vitamin-C-packed blended drink typically made by combining fresh or frozen oranges with ingredients like yogurt, milk, and a sweetener. It offers a perfect balance of sweet and tangy flavors, making it a highly nutritious choice for breakfast or a post-workout snack.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>
+                                Fresh Orange Smoothie
+                                </li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buystrawberryModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Orange Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Card-8 Strawberry Smoothie-->
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/strawberry smoothies.jpg" alt="Smoothie" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Creamy & Smooth</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Strawberry Smoothie</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">"After drinking smoothies, we feel fresh, energetic, and light. This cold and delicious blend immediately gives your body energy."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#pineappleModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buypineappleModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="pineappleModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Smoothie Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/strawberry smoothies.jpg" alt="Strawberry Smoothie"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A vibrant, refreshing, and sweet beverage blended from fresh or frozen strawberries mixed with a liquid base like milk, yogurt, or juice for a creamy, vitamin-packed treat.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>
+                                     Fresh Strawberry Smoothie
+                                </li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buypineappleModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Strawberry Smoothie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

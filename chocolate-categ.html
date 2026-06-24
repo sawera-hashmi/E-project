@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Category</title>
+
+    <link rel="shortcut icon" href="material/shrek-juice.jpg" type="image/x-icon">
+
+    <!-- Bootstrap 5 CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Font Link (For Luckiest Guy Font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- External Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img class="logo" src="material/shrek-juice.jpg" alt="Logo_juice">
+            <a class="navbar-brand" href="index.html"> Shrek-Juices</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase small">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fruit-categ.html">Fruit juices</a></li>
+                            <li><a class="dropdown-item" href="vege-categ.html">Vegetable juices</a></li>
+                            <li><a class="dropdown-item" href="smoothie-categ.html">Smoothies</a></li>
+                            <li><a class="dropdown-item" href="protein-categ.html">Protein Shakes</a></li>
+                            <li><a class="dropdown-item" href="winter.html">Winter Menu</a></li>
+                            <li><a class="dropdown-item" href="chocolate-categ.html">Chocolate juices</a></li>
+                            <li><a class="dropdown-item" href="mocktails-categ.html">Mocktails</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to the Location section below -->
+                        <a class="nav-link" href="index.html#Store-Location">Store Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Franchising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to About Us page -->
+                        <a class="nav-link" href="About-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4">
+        <div class="row" id="chocolate-juice">
+      <!-- card-2 Chocolate Fudge Shake -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/chocolate fudge.jpg" alt="Shake" height="300" width="350">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Chocolate Fudge Shake</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text text-medium font-weight-bold">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#appleModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buyappleModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+
+            <div class="modal fade" id="appleModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Chocolate Fudge Shake Recipe
+                                & Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="Material/chocolate fudge.jpg" alt="Chocolate Fudge Shake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A chocolate fudge shake is a rich, decadent beverage blending creamy vanilla ice cream, milk, and thick, glossy hot fudge into an ultra-thick treat, often garnished with whipped cream and chocolate shavings.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Chocolate Fudge Shake</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buyappleModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Chocolate Fudge Shake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- card-3 Chocolate Milkshake  -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/chocolate milkshake.jpg" alt="juice" height="300" width="350">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Chocolate Milkshake</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#pomegranateModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buypomegranateModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+
+            <div class="modal fade" id="pomegranateModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Chocolate Milkshake Recipe &
+                                Info</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="Material/chocolate milkshake.jpg" alt="Shake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A chocolate milkshake is a timeless, velvety-smooth blend of rich cocoa, creamy milk, and decadent ice cream that delivers pure, nostalgic comfort in every sip.A chocolate milkshake is a timeless, velvety-smooth blend of rich cocoa, creamy milk, and decadent ice cream that delivers pure, nostalgic comfort in every sip.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Chocolate Milkshake</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buypomegranateModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Chocolate Milkshake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card-4 Nutella Milkshake -->
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/Nutella-Milkshake.jpg" alt="Shake" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Nutella Milkshake</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  " data-bs-toggle="modal"
+                            data-bs-target="#mangoModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buymangoModal">
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="mangoModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Nutella Milkshake Recipe & Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="Material/Nutella-Milkshake.jpg" alt="Milkshake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A Nutella milkshake is an incredibly rich and creamy dessert beverage made by blending rich chocolate-hazelnut spread with milk and vanilla ice cream. It offers a decadent, frosty treat that satisfies any chocolate lover's sweet tooth in just a matter of minutes.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Lime Juice & Zest</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                            
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buymangoModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Nutella Milkshake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- card -5 Mint-Chip-Milkshake -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/Mint_Chip_Milkshake.jpg" alt="shake" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Mint-Chip-Milkshake</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold  text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#kiviModal" style="background-color: #b33db8; color: white; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buykiviModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="kiviModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Mint-Chip-Milkshake Recipe &
+                                Info</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="Material/Mint_Chip_Milkshake.jpg" alt="Mint-Chip-Milkshake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A refreshing, velvety blend of cool peppermint ice cream and rich chocolate chips, often topped with whipped cream for a sweet, decadent treat.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Mint-Chip-Milkshake</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buykiviModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Mint-Chip-Milkshake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-6 Oreo Milkshake-->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/Oreo Milkshake.webp" alt="juice" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Oreo Milkshake</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#limeModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buylimeModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="limeModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Oreo Milkshake Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="Material/Oreo Milkshake.webp" alt="Milkshake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">An Oreo milkshake is a decadent and creamy beverage made by blending milk, crushed Oreo cookies, and vanilla ice cream into a thick, sweet treat.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>
+                                    <i></i> Fresh Oreo Milkshake
+                                </li>
+                                <li> Organic Sweet Agave Nectar</li>
+                                <li> Hand-picked Crushed Mint Leaves</li>
+                                <li> Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                           
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buylimeModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Oreo Milkshake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="lime" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card-7 Peanut-Chocolate-Milkshake -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/peanut-butter-chocolate-milkshake-9217.jpg" alt="shake" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Peanut-Chocolate-Milkshake</h5><br>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#strawberryModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buystrawberryModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="strawberryModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Peanut-Chocolate-Milkshake Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="Material/peanut-butter-chocolate-milkshake-9217.jpg" alt="shake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A peanut butter chocolate milkshake is a rich, creamy, and indulgent blended beverage that combines the salty-sweet taste of peanut butter with the smooth, satisfying flavor of chocolate.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Peanut-Chocolate-Milkshake</li>
+                                <li> Organic Sweet Agave Nectar</li>
+                                <li> Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buystrawberryModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Peanut-Chocolate-Milkshake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="strawberry" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Card-8 Loaded Kitkat Shake-->
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="Material/front-view-chocolate-dessert-glass-with-straw_23-2148603311.avif" alt="shake" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Pure Choco Bliss</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Loaded Kitkat Shake</h5>
+                        <span class="fw-bold fs-5 text-success bg-success-subtle">RS: 400</span>
+                    </div>
+
+                    <p class="card-text ">Chocolate shakes are deliciously rich beverages typically made by blending cold milk, sweet chocolate syrup, and creamy ice cream until smooth.</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#pineappleModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buypineappleModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="pineappleModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Loaded Kitkat Shake Juice Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="Material/front-view-chocolate-dessert-glass-with-straw_23-2148603311.avif" alt="Shake"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A loaded KitKat milkshake is a decadent, ultra-creamy blend of rich chocolate ice cream and milk, packed with crushed KitKat bars and overflowing with whipped cream, chocolate drizzle, and extra wafer chunks for the ultimate crunchy indulgence.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Loaded KitKat Shake</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li> Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buypineappleModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Loaded KitKat Shake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="pineapple" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

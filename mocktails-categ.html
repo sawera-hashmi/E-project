@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocktail Category</title>
+
+    <link rel="shortcut icon" href="material/shrek-juice.jpg" type="image/x-icon">
+
+    <!-- Bootstrap 5 CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Font Link (For Luckiest Guy Font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- External Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img class="logo" src="material/shrek-juice.jpg" alt="Logo_juice">
+            <a class="navbar-brand" href="index.html"> Shrek-Juices</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase small">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fruit-categ.html">Fruit juices</a></li>
+                            <li><a class="dropdown-item" href="vege-categ.html">Vegetable juices</a></li>
+                            <li><a class="dropdown-item" href="smoothie-categ.html">Smoothies</a></li>
+                            <li><a class="dropdown-item" href="protein-categ.html">Protein Shakes</a></li>
+                            <li><a class="dropdown-item" href="winter.html">Winter Menu</a></li>
+                            <li><a class="dropdown-item" href="chocolate-categ.html">Chocolate juices</a></li>
+                            <li><a class="dropdown-item" href="mocktails-categ.html">Mocktails</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to the Location section below -->
+                        <a class="nav-link" href="index.html#Store-Location">Store Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Franchising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to About Us page -->
+                        <a class="nav-link" href="About-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- card-1 -->
+    <div class="container mt-4">
+        <div class="row" id="mocktail">
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/blue moctail.jpg" alt="juice" height="300">
+
+                <div class="card-body">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Spiritfree</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #ffffff;">Blue Mocktail Juice</h5>
+                        <span class="fw-bold fs-5 text-success">RS:400</span>
+                    </div>
+
+                    <p class="card-text ">"A mocktail is simply a non-alcoholic mixed drink that looks and tastes like a cocktail."
+                    </p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#orangeModal" style="background-color:#b33db8; border:none;">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buyorangeModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="orangeModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg"
+                        style="background:linear-gradient(135deg,#E6E6FA,#771177); border-radius:30px;">
+
+                        <div class="modal-content border-0 shadow-lg"
+                            style="background-color:#e046e0; border-radius:30px;">
+
+                            <div class="modal-header border-0">
+                                <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">
+                                    Selling Juice Recipe & Info
+                                </h5>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body text-center">
+
+                                <img src="material/blue moctail.jpg" alt="Orange Juice"
+                                    class="rounded mb-3 d-block mx-auto"
+                                    style="width:150px; height:150px; object-fit:cover;">
+
+                                <p class="text-muted" text-black>A blue mocktail is a vibrant, non-alcoholic drink typically made with citrus juice, sweet non-alcoholic blue curaçao syrup, and lemon-lime soda, offering a refreshing and visually striking tropical beverage.</p>
+
+                            </div>
+                            <h6 class="fw-bold text-white mt-4 mb-2 "><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Blue Mocktail</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buyorangeModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Blue Mocktail Juice</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card-2-->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/franciso mocktail.jpg" alt="juice" height="300" width="350">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Spiritfree</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Franciso Mocktail Juice</h5>
+                        <span class="fw-bold fs-5 text-success">RS:400</span>
+                    </div>
+
+                    <p class="card-text text-medium font-weight-bold">"A mocktail is simply a non-alcoholic mixed drink that looks and tastes like a cocktail."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#appleModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buyappleModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+
+            <div class="modal fade" id="appleModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Juice Recipe
+                                & Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/franciso mocktail.jpg" alt="Apple Juice"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">Franciso mocktail is a fruity, citrusy, and non-alcoholic blend typically made with orange, lemon, and pineapple juices, balanced with grenadine and soda water.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Lime Juice & Zest</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves </li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buyappleModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Franciso Mocktial Juice</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- card-3-->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/coconut mocktail.jpg" alt="juice" height="300" width="350">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Spiritfree</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">coconut Mocktail Juice</h5>
+                        <span class="fw-bold fs-5 text-success">RS:400</span>
+                    </div>
+
+                    <p class="card-text ">"A mocktail is simply a non-alcoholic mixed drink that looks and tastes like a cocktail."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#pomegranateModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buypomegranateModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- modal -->
+
+            <div class="modal fade" id="pomegranateModal" tabindex="-1" aria-labelledby="juiceModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Juice Recipe &
+                                Info</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/coconut mocktail.jpg" alt="Pomegranate Juice"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A coconut mocktail is a refreshing, non-alcoholic tropical drink made by blending coconut water or creamy coconut milk with vibrant flavor enhancers like fresh lime, mint, or fruit juices.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Lime Juice & Zest</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buypomegranateModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order coconut Mocktail Juice</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card-4-->
+
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/ginger ale mocktail.jpg" alt="juice" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Spiritfree</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Gineger Ale Juice</h5>
+                        <span class="fw-bold fs-5 text-success">RS:400</span>
+                    </div>
+
+                    <p class="card-text ">"A mocktail is simply a non-alcoholic mixed drink that looks and tastes like a cocktail."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  " data-bs-toggle="modal"
+                            data-bs-target="#mangoModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buymangoModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="mangoModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Juice Recipe & Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/ginger ale mocktail.jpg" alt="Pomegranate Juice"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted">A ginger ale mocktail is a crisp, alcohol-free beverage that blends sweet, bubbly ginger ale with ingredients like fresh citrus, mint, or fruit juice.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Lime Juice & Zest</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal for order -->
+            <div class="modal fade" id="buymangoModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Giner Ale MOcktail Juice</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- card -5 -->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/strawberry  mocktail.jpg " alt="juice" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Spiritfree</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Strawberry Mocktail Juice</h5>
+                        <span class="fw-bold fs-5 text-success">RS:400</span>
+                    </div>
+
+                    <p class="card-text "> "A mocktail is simply a non-alcoholic mixed drink that looks and tastes like a cocktail."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold  text-white shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#kiviModal" style="background-color: #b33db8; color: white; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buykiviModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="kiviModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Juice Recipe &
+                                Info</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="material/strawberry  mocktail.jpg" alt="kivi Juice"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-white">A vibrant, refreshing, and non-alcoholic drink made by blending or muddling fresh strawberries with lime, mint, and a sweetener, topped with sparkling water or soda for a bubbly finish.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i>
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh Lime Juice & Zest</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li> Hand-picked Crushed Mint Leaves</li>
+                                <li> Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buykiviModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order strawberry Mocktail Juice</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--card-6-->
+            <div class="card shadow border-0"
+                style="width: 20rem; border-radius: 16px; overflow: hidden; margin: 20px auto;">
+
+                <img src="material/mocktail-passion-fruit.webp" alt="juice" height="300">
+
+                <div class="card-body p-4">
+                    <span class="badge bg-success-subtle text-success mb-2 fw-bold">Spiritfree</span>
+
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title fw-bold m-0" style="color: #f8f8f8;">Passion Fruit Mocktail Juice</h5>
+                        <span class="fw-bold fs-5 text-success">RS:400</span>
+                    </div>
+
+                    <p class="card-text ">"A mocktail is simply a non-alcoholic mixed drink that looks and tastes like a cocktail."</p>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="btn btn- w-50 fw-semibold text-white  shadow-sm" data-bs-toggle="modal"
+                            data-bs-target="#limeModal" style="background-color: #b33db8; ">
+                            View Details
+                        </button>
+                        <button class="btn btn-primary w-50 fw-semibold shadow-sm"
+                            style="background-color: #b33db8; border: none;" data-bs-toggle="modal"
+                            data-bs-target="#buylimeModal">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="limeModal" tabindex="-1" aria-labelledby="juiceModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                        <div class="modal-header border-0 pb-0">
+                            <h5 class="modal-title fw-bold text-dark" id="juiceModalLabel">Selling Juice Recipe &
+                                Info
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body py-3">
+                            <img src="material/mocktail-passion-fruit.webp" alt="lime Juice"
+                                class="img-fluid rounded d-block mx-auto mb-3"
+                                style="width:150px; height:150px; object-fit:cover;">
+                            <p class="text-muted" text-white>A passion fruit mocktail is a vibrant, tropical non-alcoholic drink that blends the sweet, tart, and floral flavors of passion fruit pulp with citrus juice and sparkling water.</p>
+
+                            <h6 class="fw-bold text-white mt-4 mb-2">
+                                Key
+                                Ingredients:</h6>
+                            <ul class="text-white">
+                                <li>Fresh lime Juice</li>
+                                <li>Organic Sweet Agave Nectar</li>
+                                <li>Hand-picked Crushed Mint Leaves</li>
+                                <li>Pure Sea Salt Minerals for Electrolytes</li>
+                            </ul>
+                        </div>
+                        <!-- footer -->
+                        <div class=" modal-footer border-0 pt-0">
+                            <button type="button" class="btn btn-secondary fw-semibold btn-sm"
+                                data-bs-dismiss="modal">Close</button>
+                           
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- modal for order -->
+            <div class="modal fade" id="buylimeModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Order Strawberry Mocktail Juice</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <input type="text" id="juice" class="form-control mb-3" placeholder="Enter Your Name">
+
+                            <input type="tel" id="phone" class="form-control mb-3" placeholder="Phone Number">
+
+                            <input type="text" id="address" class="form-control mb-3" placeholder="Delivery Address">
+
+                            <button class="btn btn-success w-100" onclick="confirmOrder()">
+                                Confirm Order
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

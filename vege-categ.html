@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Icons (Required for your <i> icon tags) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+    <title>Vege Juice Bar</title>
+   
+   
+    <link rel="shortcut icon" href="material/shrek-juice.jpg" type="image/x-icon">
+
+    <!-- Bootstrap 5 CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Font Link (For Luckiest Guy Font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- External Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img class="logo" src="material/shrek-juice.jpg" alt="Logo_juice">
+            <a class="navbar-brand" href="index.html"> Shrek-Juices</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase small">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fruit-categ.html">Fruit juices</a></li>
+                            <li><a class="dropdown-item" href="vege-categ.html">Vegetable juices</a></li>
+                            <li><a class="dropdown-item" href="smoothie-categ.html">Smoothies</a></li>
+                            <li><a class="dropdown-item" href="protein-categ.html">Protein Shakes</a></li>
+                            <li><a class="dropdown-item" href="winter.html">Winter Menu</a></li>
+                            <li><a class="dropdown-item" href="chocolate-categ.html">Chocolate juices</a></li>
+                            <li><a class="dropdown-item" href="mocktails-categ.html">Mocktails</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to the Location section below -->
+                        <a class="nav-link" href="index.html#Store-Location">Store Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Franchising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering-franchising.html">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#location-section">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Connecting directly to About Us page -->
+                        <a class="nav-link" href="About-us.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <!-- Grid configuration: 1 col on mobile, 2 on tablet, 3 on desktop -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="vegetable-juice">
+
+            <!-- ================= CARD 1: CARROT JUICE ================= -->
+            <div class="col">
+                <div class="card shadow border-0 h-100" style="border-radius: 16px; overflow: hidden;">
+                    <img src="material/carrot juice.jpg" alt="Carrot Juice" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <span class="badge bg-success-subtle text-success mb-2 fw-bold align-self-start">Nutrient-dense</span>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title fw-bold m-0" style="color: #212529;">Carrot Juice</h5>
+                            <span class="fw-bold fs-5 text-success">RS: 200</span>
+                        </div>
+                        <p class="card-text text-muted">Vegetable juice is a highly concentrated source of vitamins, minerals, and antioxidants. It provides a convenient, low-sugar way to increase your daily intake of micronutrients.</p>
+                        <div class="d-flex gap-2 mt-auto pt-3">
+                            <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal" data-bs-target="#carrotModal" style="background-color:#b33db8; border:none;">
+                                View Details
+                            </button>
+                            <button class="btn btn-primary w-50 fw-semibold shadow-sm" style="background-color: #b33db8; border: none;" data-bs-toggle="modal" data-bs-target="#buycarrotModal">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= CARD 2: BEETROOT JUICE ================= -->
+            <div class="col">
+                <div class="card shadow border-0 h-100" style="border-radius: 16px; overflow: hidden;">
+                    <img src="material/beetroot juice.jpg" alt="Beetroot Juice" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <span class="badge bg-success-subtle text-success mb-2 fw-bold align-self-start">Nutrient-dense</span>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title fw-bold m-0" style="color: #212529;">Beetroot Juice</h5>
+                            <span class="fw-bold fs-5 text-success">RS: 200</span>
+                        </div>
+                        <p class="card-text text-muted">Vegetable juice is a highly concentrated source of vitamins, minerals, and antioxidants. It provides a convenient, low-sugar way to increase your daily intake of micronutrients.</p>
+                        <div class="d-flex gap-2 mt-auto pt-3">
+                            <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal" data-bs-target="#beetrootModal" style="background-color: #b33db8; border: none;">
+                                View Details
+                            </button>
+                            <button class="btn btn-primary w-50 fw-semibold shadow-sm" style="background-color: #b33db8; border: none;" data-bs-toggle="modal" data-bs-target="#buybeetrootModal">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= CARD 3: CUCUMBER JUICE ================= -->
+            <div class="col">
+                <div class="card shadow border-0 h-100" style="border-radius: 16px; overflow: hidden;">
+                    <img src="material/cucumber juice.jpg" alt="Cucumber Juice" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <span class="badge bg-success-subtle text-success mb-2 fw-bold align-self-start">Nutrient-dense</span>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title fw-bold m-0" style="color: #212529;">Cucumber Juice</h5>
+                            <span class="fw-bold fs-5 text-success">RS: 200</span>
+                        </div>
+                        <p class="card-text text-muted">Vegetable juice is a highly concentrated source of vitamins, minerals, and antioxidants. It provides a convenient, low-sugar way to increase your daily intake of micronutrients.</p>
+                        <div class="d-flex gap-2 mt-auto pt-3">
+                            <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal" data-bs-target="#cucumberModal" style="background-color: #b33db8; border: none;">
+                                View Details
+                            </button>
+                            <button class="btn btn-primary w-50 fw-semibold shadow-sm" style="background-color: #b33db8; border: none;" data-bs-toggle="modal" data-bs-target="#buycucumberModal">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= CARD 4: LEMON JUICE ================= -->
+            <div class="col">
+                <div class="card shadow border-0 h-100" style="border-radius: 16px; overflow: hidden;">
+                    <img src="material/lemon juice.jpg" alt="Lemon Juice" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <span class="badge bg-success-subtle text-success mb-2 fw-bold align-self-start">Nutrient-dense</span>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title fw-bold m-0" style="color: #212529;">Lemon Juice</h5>
+                            <span class="fw-bold fs-5 text-success">RS: 200</span>
+                        </div>
+                        <p class="card-text text-muted">Vegetable juice is a highly concentrated source of vitamins, minerals, and antioxidants. It provides a convenient, low-sugar way to increase your daily intake of micronutrients.</p>
+                        <div class="d-flex gap-2 mt-auto pt-3">
+                            <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal" data-bs-target="#lemonModal" style="background-color: #b33db8; border: none;">
+                                View Details
+                            </button>
+                            <button class="btn btn-primary w-50 fw-semibold shadow-sm" style="background-color: #b33db8; border: none;" data-bs-toggle="modal" data-bs-target="#buylemonModal">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= CARD 5: MINT JUICE ================= -->
+            <div class="col">
+                <div class="card shadow border-0 h-100" style="border-radius: 16px; overflow: hidden;">
+                    <img src="material/mint juice.jpg" alt="Mint Juice" class="card-img-top" style="height: 300px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <span class="badge bg-success-subtle text-success mb-2 fw-bold align-self-start">Nutrient-dense</span>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title fw-bold m-0" style="color: #212529;">Mint Juice</h5>
+                            <span class="fw-bold fs-5 text-success">RS: 200</span>
+                        </div>
+                        <p class="card-text text-muted">Vegetable juice is a highly concentrated source of vitamins, minerals, and antioxidants. It provides a convenient, low-sugar way to increase your daily intake of micronutrients.</p>
+                        <div class="d-flex gap-2 mt-auto pt-3">
+                            <button class="btn w-50 fw-semibold text-white shadow-sm" data-bs-toggle="modal" data-bs-target="#mintModal" style="background-color: #b33db8; border: none;">
+                                View Details
+                            </button>
+                            <button class="btn btn-primary w-50 fw-semibold shadow-sm" style="background-color: #b33db8; border: none;" data-bs-toggle="modal" data-bs-target="#buymintModal">
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /row -->
+    </div> <!-- /container -->
+
+
+    <!-- ================================================================= -->
+    <!-- ========================== ALL MODALS =========================== -->
+    <!-- ================================================================= -->
+
+    <!-- CARROT INFO MODAL -->
+    <div class="modal fade" id="carrotModal" tabindex="-1" aria-labelledby="carrotModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="background-color:#E6E6FA; border-radius:20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-dark" id="carrotModalLabel">Selling Juice Recipe & Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center py-3">
+                    <img src="material/carrot juice.jpg" alt="Carrot Juice" class="rounded mb-3 d-block mx-auto" style="width:150px; height:150px; object-fit:cover;">
+                    <p class="text-muted">Carrot juice is a highly concentrated beverage packed with beta-carotene, potassium, and vitamins A, K, and C. It is celebrated for supporting immunity, promoting eye health, and improving skin radiance.</p>
+                    <ul class="text-white">
+                        <li>Fresh Lime Juice & Zest</li>
+                        <li> Organic Sweet Agave Nectar</li>
+                        <li> Hand-picked Crushed Mint Leaves</li>
+                        <li> Pure Sea Salt Minerals for Electrolytes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-secondary fw-semibold btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARROT ORDER MODAL -->
+    <div class="modal fade" id="buycarrotModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Order Carrot Juice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <input type="text" id="carrot_name" class="form-control mb-3" placeholder="Enter Your Name">
+                    <input type="tel" id="carrot_phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="carrot_address" class="form-control mb-3" placeholder="Delivery Address">
+                    <button class="btn btn-success w-100 fw-bold" onclick="confirmOrder()">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BEETROOT INFO MODAL -->
+    <div class="modal fade" id="beetrootModal" tabindex="-1" aria-labelledby="beetrootModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-dark" id="beetrootModalLabel">Selling Juice Recipe & Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-3">
+                    <img src="material/beetroot juice.jpg" alt="Beetroot Juice" class="img-fluid rounded d-block mx-auto mb-3" style="width:150px; height:150px; object-fit:cover;">
+                    <p class="text-muted">Beetroot juice is packed with dietary nitrates that your body converts into nitric oxide. This helps relax and widen your blood vessels, leading to better blood flow, lower blood pressure, and increased stamina.</p>
+                    <h6 class="fw-bold text-white mt-4 mb-2"> Key Ingredients:</h6>
+                    <ul class="text-white">
+                        <li> Fresh Lime Juice & Zest</li>
+                        <li> Organic Sweet Agave Nectar</li>
+                        <li> Hand-picked Crushed Mint Leaves</li>
+                        <li> Pure Sea Salt Minerals for Electrolytes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-secondary fw-semibold btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BEETROOT ORDER MODAL -->
+    <div class="modal fade" id="buybeetrootModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Order Beetroot Juice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <input type="text" id="beetroot_name" class="form-control mb-3" placeholder="Enter Your Name">
+                    <input type="tel" id="beetroot_phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="beetroot_address" class="form-control mb-3" placeholder="Delivery Address">
+                    <button class="btn btn-success w-100 fw-bold" onclick="confirmOrder()">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CUCUMBER INFO MODAL -->
+    <div class="modal fade" id="cucumberModal" tabindex="-1" aria-labelledby="cucumberModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-dark" id="cucumberModalLabel">Selling Juice Recipe & Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-3">
+                    <img src="material/cucumber juice.jpg" alt="Cucumber Juice" class="img-fluid rounded d-block mx-auto mb-3" style="width:150px; height:150px; object-fit:cover;">
+                    <p class="text-muted">Cucumber juice is a low-calorie, crisp beverage made by extracting the liquid from the Cucumber. It is celebrated for its natural cooling properties and exceptional hydration benefits, as the fruit is about 95--96% water.</p>
+                    <h6 class="fw-bold text-white mt-4 mb-2"><i class="bi bi-patch-check-fill text-success"></i> Key Ingredients:</h6>
+                    <ul class="text-white">
+                        <li> Fresh Lime Juice & Zest</li>
+                        <li> Organic Sweet Agave Nectar</li>
+                        <li> Hand-picked Crushed Mint Leaves</li>
+                        <li> Pure Sea Salt Minerals for Electrolytes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-secondary fw-semibold btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CUCUMBER ORDER MODAL -->
+    <div class="modal fade" id="buycucumberModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Order Cucumber Juice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <input type="text" id="cucumber_name" class="form-control mb-3" placeholder="Enter Your Name">
+                    <input type="tel" id="cucumber_phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="cucumber_address" class="form-control mb-3" placeholder="Delivery Address">
+                    <button class="btn btn-success w-100 fw-bold" onclick="confirmOrder()">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEMON INFO MODAL -->
+    <div class="modal fade" id="lemonModal" tabindex="-1" aria-labelledby="lemonModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-dark" id="lemonModalLabel">Selling Juice Recipe & Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-3">
+                    <img src="material/lemon juice.jpg" alt="Lemon Juice" class="img-fluid rounded d-block mx-auto mb-3" style="width:150px; height:150px; object-fit:cover;">
+                    <p class="text-muted">Lemon juice is a highly acidic liquid naturally extracted from the fruit of the Citrus limon tree. Bursting with citric acid and vitamin C, it is widely used in culinary arts, baking, and beverages to add a refreshing, tart kick, or even to prevent food from oxidizing (turning brown).</p>
+                    <h6 class="fw-bold text-white mt-4 mb-2">Key Ingredients:</h6>
+                    <ul class="text-white">
+                        <li> Fresh Lime Juice & Zest</li>
+                        <li> Organic Sweet Agave Nectar</li>
+                        <li> Hand-picked Crushed Mint Leaves</li>
+                        <li> Pure Sea Salt Minerals for Electrolytes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-secondary fw-semibold btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEMON ORDER MODAL -->
+    <div class="modal fade" id="buylemonModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Order Lemon Juice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <input type="text" id="lemon_name" class="form-control mb-3" placeholder="Enter Your Name">
+                    <input type="tel" id="lemon_phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="lemon_address" class="form-control mb-3" placeholder="Delivery Address">
+                    <button class="btn btn-success w-100 fw-bold" onclick="confirmOrder()">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MINT INFO MODAL -->
+    <div class="modal fade" id="mintModal" tabindex="-1" aria-labelledby="mintModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-dark" id="mintModalLabel">Selling Juice Recipe & Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-3">
+                    <img src="material/mint juice.jpg" alt="Mint Juice" class="img-fluid rounded d-block mx-auto mb-3" style="width:150px; height:150px; object-fit:cover;">
+                    <p class="text-muted">Mint juice (often known as Pudina Sherbet or Limonana) is famous for its natural cooling properties and crisp flavor. Packed with antioxidants and menthol, it’s a popular homemade remedy to beat the summer heat and soothe your stomach.</p>
+                    <h6 class="fw-bold text-white mt-4 mb-2"> Key Ingredients:</h6>
+                    <ul class="text-white">
+                        <li> Fresh Lime Juice & Zest</li>
+                        <li> Organic Sweet Agave Nectar</li>
+                        <li> Hand-picked Crushed Mint Leaves</li>
+                        <li> Pure Sea Salt Minerals for Electrolytes</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-secondary fw-semibold btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MINT ORDER MODAL -->
+    <div class="modal fade" id="buymintModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Order Mint Juice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <input type="text" id="mint_name" class="form-control mb-3" placeholder="Enter Your Name">
+                    <input type="tel" id="mint_phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="mint_address" class="form-control mb-3" placeholder="Delivery Address">
+                    <button class="btn btn-success w-100 fw-bold" onclick="confirmOrder()">Confirm Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS (Includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

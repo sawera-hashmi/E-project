@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek Juice - Sign Up</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icon cdn  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="sign-up-body">
+
+
+    <div class="signup-container">
+
+        <div class="logo-section">
+            <h1>🥤 Shrek Juice</h1>
+            <p>Fresh • Healthy • Delicious</p>
+        </div>
+
+        <form class="signup-form" action="login.html">
+
+            <h2>Create Account</h2>
+
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fas fa-phone"></i>
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required id="pw">
+            </div>
+
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Confirm Password" required id="cpw">
+            </div>
+
+            <button type="submit" class="signup-btn" onclick="checkPassword()">
+                Sign Up
+            </button>
+
+            <p class="login-link">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </form>
+
+    </div>
+
+    <script>
+
+        function checkPassword() {
+            let pass = document.getElementById("pw").value;
+            let Cpass = document.getElementById("cpw").value;
+
+            if (pass == Cpass) {
+                // window.location.href = "login.html";
+                return true;
+            }
+            else {
+                alert("password & Confirmed password not Match");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
