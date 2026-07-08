@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/index.html</loc>
+  <lastmod>2026-07-03T15:10:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/fruit-categ.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/vege-categ.html</loc>
+  <lastmod>2026-07-03T15:10:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/smoothie-categ.html</loc>
+  <lastmod>2026-07-03T15:10:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/protein-categ.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/winter.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/chocolate-categ.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/mocktails-categ.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/catering-franchising.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/About-us.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/login.html</loc>
+  <lastmod>2026-07-03T15:10:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/contact.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sawera-hashmi.github.io/E-project/sign-up.html</loc>
+  <lastmod>2026-07-03T15:10:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
